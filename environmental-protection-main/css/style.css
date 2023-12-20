@@ -1,0 +1,304 @@
+:root {
+    --color-primary: #68996c;
+    --color-primary-darker: #4bbb7d;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item a {
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+
+.nav-item a:hover {
+    color: black;
+    color: var(--color-primary-darker);
+    border-radius: 10px;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+li .active {
+    background-color: var(--color-primary);
+    color: black;
+    border-radius: 10px;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.header-video {
+    overflow: hidden;
+    height: 22rem;
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.opacity {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.smarthome-header-img {
+    background-image: url(../img/smart_home/smart_home_header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.smartcity-header-img {
+    background-image: url(../img/smart_city/smart_city_header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.greenroof-header-img {
+    background-image: url(../img/green_roof/green_roof_header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.electricvehicles-header-img {
+    background-image: url(../img/electric_vehicles/electric_vehicle_header.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.drones-header-img {
+    background-image: url(../img/drones/drone_header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.architecture-header-img {
+    background-image: url(../img/architecture/architecture_header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.our-header-img {
+    background-image: url(../img/contacts/our_header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron {
+    min-height: 25vw;
+}
+
+.jumbotron>h1 {
+    text-shadow: 0px 0px 30px black;
+}
+
+.highlight {
+    opacity: 90%;
+    padding: 8px;
+    background: linear-gradient(to top left, #39b385, #9be15d);
+}
+
+.highlight-warning {
+    opacity: 90%;
+    padding: 8px;
+    background: linear-gradient(to top left, #68996c, #c3d5ad);
+    color: #3c4043;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.card-btn {
+    box-shadow: 8px 12px 11px -8px #4e5855;
+    background: linear-gradient(to bottom, #72cc81 5%, #4dbb91 100%);
+    background-color: #72cc81;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    color: #3c4043;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-shadow: 1px 0px 1px #4e5855;
+}
+
+.card-btn:hover {
+    background: linear-gradient(to bottom, #4dbb91 5%, #72cc81 100%);
+    background-color: #4dbb91;
+}
+
+.card-btn:active {
+    position: relative;
+    top: 1px;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px 0.01px black;
+}
+
+.smart-card h5 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form label {
+    color: var(--color-primary);
+}
+
+footer li {
+    display: block;
+    list-style-type: none;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(180, 177, 177, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer {
+    background-color: #3c4043;
+}
+
+.footer-text {
+    padding: 0 50px 0 0;
+}
+
+td a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(180, 177, 177, 0.6);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+td a:hover {
+    color: black;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 76px;
+    color: #3c4043;
+    letter-spacing: normal;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 65px;
+    color: #3c4043;
+    letter-spacing: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 44px;
+    color: #3c4043;
+    letter-spacing: normal;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 44px;
+    color: #3c4043;
+    letter-spacing: normal;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: left;
+    letter-spacing: normal;
+    margin-bottom: 15px;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #3c4043;
+    text-align: left;
+    letter-spacing: normal;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #3c4043;
+    text-align: left;
+    letter-spacing: normal;
+    padding: 10px;
+}
+
+/* Icon color */
+i {
+    color: #39b385;
+}
+
+.i-problems {
+    color: #68996c;
+}
+
+.i-footer {
+    color: rgba(180, 177, 177, 0.6);
+}
+
+.smart-card {
+    margin-top: 30px;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(104, 153, 108, 0.3);
+}
